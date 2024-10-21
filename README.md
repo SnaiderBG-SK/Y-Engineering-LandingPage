@@ -228,9 +228,10 @@ El proyecto utiliza dos claves proporcionadas por Supabase para establecer la co
 Este método está diseñado para ser utilizado desde la landing page, permitiendo que la aplicación interactúe con la base de datos sin requerir que los usuarios ingresen credenciales. Sin embargo, este acceso está restringido a operaciones que no comprometan la seguridad, asegurando que solo se pueda realizar la lectura y escritura de datos permitidos.
 
 # Repositorio:
-1. **Clona el repositorio (ssh key):**
+1. **Clona el repositorio:**
    ```bash
-   git clone git@github.com:HouseCham/Y-Engineering-LandingPage.git
+   git clone git@github.com:SolucionesKenko/Y-Engineering-LandingPage.git   #Usando SSH Key
+   git clone https://github.com/SolucionesKenko/Y-Engineering-LandingPage.git #Usando Https
    ```
 2. **Navega a la carpeta del proyecto:**
     ```bash
@@ -238,8 +239,8 @@ Este método está diseñado para ser utilizado desde la landing page, permitien
     ```
 3. **Instala las librerías (usa npm o yarn):**
     ```bash
-    npm install        # Using npm
-    yarn install      # Using yarn
+    npm install        # Usando npm
+    yarn install      # Usando yarn
     ```
 4. **Configura Supabase:**
 * Crea un archivo .env.local en la raiz de tu proyecto.
@@ -251,8 +252,8 @@ Este método está diseñado para ser utilizado desde la landing page, permitien
     ```
 6. **Corre la aplicacion en DEV:**
     ```bash
-    npm run dev        # Using npm
-    yarn dev          # Using yarn
+    npm run dev        # Usando npm
+    yarn dev          # Usando yarn
     ```
 7. **Compila la aplicación:**
     ```
