@@ -1,0 +1,21 @@
+
+/* Generic styles */
+
+/* Pros Card Styles */
+.procard-container {
+  transition: background-color 0.3s ease;
+}
+.procard-container:hover {
+  background-color: var(--tertiary-color);
+  transition: background-color 0.3s ease;
+}
+
+.procard-container:hover .procard-title,
+.procard-container:hover .procard-description,
+.procard-container:hover .procard-icon,
+.procard-container:hover .service-card-cta-btn {
+  color: #FFF !important;
+  opacity: 1 !important;
+  transition: color 0.3s ease, opacity 0.3s ease;
+}
+/* Service Card Styles */

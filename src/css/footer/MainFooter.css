@@ -1,0 +1,29 @@
+footer .ant-menu {
+    background-color: transparent !important;
+}
+footer .ant-menu-title-content {
+    color: white !important;
+    padding-right: 10px !important;
+}
+footer .ant-menu .ant-menu-submenu {
+    background-color: inherit !important;
+}
+footer .ant-menu-submenu-title {
+    padding: 0 !important;
+    margin: 8px 0 0 0 !important;
+}
+footer .ant-menu-submenu-title :hover {
+    background-color: transparent !important;
+}
+footer .ant-menu-submenu-title .ant-menu-submenu-arrow {
+    display: none;
+}
+footer .ant-menu-item {
+    padding-left: 20px !important;
+}
+footer .ant-menu-inline {
+    width: fit-content !important;
+}
+footer .ant-menu-item-selected {
+    background-color: transparent !important;
+}

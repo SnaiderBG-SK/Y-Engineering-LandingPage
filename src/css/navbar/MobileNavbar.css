@@ -1,0 +1,31 @@
+.mobile-navbar .ant-menu-submenu-title,
+.mobile-navbar .ant-menu-item {
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+}
+
+.desktop-navbar ul {
+    background-color: transparent !important;
+}
+.desktop-navbar .ant-menu-title-content,
+.desktop-navbar .navbar-icon {
+    color: #FFF !important;
+    vertical-align: middle !important;
+}
+
+/* Remove border from antd menu */
+.desktop-navbar .ant-menu-horizontal, 
+.desktop-navbar .ant-menu-item::after, 
+.desktop-navbar .ant-menu-submenu::after {
+    border: none !important;
+}
+
+.ant-drawer-content {
+    width: 100% !important;
+}
+.ant-drawer-content-wrapper {
+    max-width: 300px !important;
+}
+.ant-menu {
+    border: none !important;
+}

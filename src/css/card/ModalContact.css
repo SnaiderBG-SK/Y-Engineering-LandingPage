@@ -1,0 +1,25 @@
+.custom-modal {
+    width: 70vw;
+}
+
+.custom-modal .ant-modal-content {
+    background-color: #444444 !important;
+}
+.custom-modal .ant-modal-close-icon {
+    color: #FFF !important;
+}
+.ant-form-item-required {
+    color: #FFF !important;
+}
+
+@media (max-width: 768px) {
+    .custom-modal {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 1280px) {
+    .custom-modal {
+        width: 50vw;
+    }
+}

@@ -1,0 +1,30 @@
+
+.bg-slider-text-container {
+    margin-top: 10%;
+}
+
+@media (min-width: 768px) {
+    .bg-slider-text-container {
+        margin-top: 10%;
+    }
+    .counter-container {
+        height: 35vh;
+        max-height: 250px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .bg-slider-text-container {
+        margin-top: 5%;
+    }
+}
+
+.counter-container {
+    height: 60vh;
+}
+
+@media (min-width: 1280px) {
+    .bg-slider-text-container {
+        margin-top: 10%;
+    }
+}

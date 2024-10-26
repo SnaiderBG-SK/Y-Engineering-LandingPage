@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --main-color: #2B2B2B;
+  --secondary-color: #F3F5F9 ;
+  /* --secondary-color-rgba: rgba(244, 245, 249, 0.35); */
+  --secondary-color-rgba: rgba(56, 182, 255, 0.80);
+  --tertiary-color: #38B6FF;
+
+  --primary-gray-color: #747474;
+  --pages-title-color: #293241;
+
+  --main-font: "Poppins", sans-serif;
+}
+
+* {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.bg-main-color {
+  background-color: var(--main-color);
+}
+.bg-secondary-color {
+  background-color: var(--secondary-color);
+}
+.bg-secondary-color-rgba {
+  background-color: var(--secondary-color-rgba);
+}
+.bg-tertiary-color {
+  background-color: var(--tertiary-color);
+}
+.text-main-color {
+  color: var(--main-color);
+}
+.text-secondary-color {
+  color: var(--secondary-color);
+}
+.text-tertiary-color {
+  color: var(--tertiary-color);
+}
+.text-primary-gray-color {
+  color: var(--primary-gray-color);
+}
+.border-main-color {
+  border-color: var(--main-color);
+}
+.border-secondary-color {
+  border-color: var(--secondary-color);
+}
+.border-tertiary-color {
+  border-color: var(--tertiary-color);
+}
+.text-pages-title-color {
+  color: var(--pages-title-color);
+}
+.icon-main-color {
+  color: var(--main-color);
+}
+.icon-secondary-color {
+  color: var(--secondary-color);
+}
+.main-font {
+  font-family: var(--main-font);
+}
+.secondary-bg-translucid {
+  background-color: var(--secondary-color-rgba) !important;
+}
