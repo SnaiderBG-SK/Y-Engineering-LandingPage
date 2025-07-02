@@ -32,18 +32,24 @@ export const MainFooter: React.FC = () => {
     const contactInformation: IContact[] = [
         {
             id: 1,
-            title: "890-A Marina Vallarta, Jal. 45140",
+            title: "1324, 2803 Philadelphia Pike, Suite B #1324, Claymont, Delaware, 19703",
             iconClassname: "fa-solid fa-location-dot",
             description: ''
         },
         {
             id: 2,
+            title: "2803 Philadelphia Pike, Suite B #1324, Claymont, Delaware, 19703",
+            iconClassname: "fa-solid fa-location-dot",
+            description: ''
+        },
+        {
+            id: 3,
             title: "+52 33 2832 6914",
             iconClassname: "fa-solid fa-phone",
             description: ''
         },
         {
-            id: 3,
+            id: 4,
             title: CompanyEmail,
             iconClassname: "fa-solid fa-envelope",
             description: ''
