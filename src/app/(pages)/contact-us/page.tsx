@@ -83,7 +83,7 @@ const ContactPage: NextPage = () => {
       {/* Location Map */}
       <div className="mt-8">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3731.308885121625!2d-103.4209867247513!3d20.73827088083932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428af9aad4f071f%3A0x7265c517af832c61!2sSoluciones%20Kenko!5e0!3m2!1ses-419!2smx!4v1720487031622!5m2!1ses-419!2smx"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3065.506172455079!2d-75.4715087097528!3d39.79563641985125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6e3884a8e729f%3A0x1a48a86853c3106a!2s2803%20Philadelphia%20Pike%20b%201324%2C%20Claymont%2C%20DE%2019703%2C%20EE.%20UU.!5e0!3m2!1ses!2smx!4v1744681561015!5m2!1ses!2smx"
           className="w-full"
           height="450"
           loading="lazy"
