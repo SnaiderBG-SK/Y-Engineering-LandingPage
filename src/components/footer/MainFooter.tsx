@@ -32,13 +32,13 @@ export const MainFooter: React.FC = () => {
     const contactInformation: IContact[] = [
         {
             id: 1,
-            title: "1324, 2803 Philadelphia Pike, Suite B #1324, Claymont, Delaware, 19703",
+            title: "2803 Philadelphia Pike, Claymont, Delaware, 19703",
             iconClassname: "fa-solid fa-location-dot",
             description: ''
         },
         {
             id: 2,
-            title: "2803 Philadelphia Pike, Suite B #1324, Claymont, Delaware, 19703",
+            title: "Marina Vallarta 890, Santa Margarita1a Secc., 45140 Zapopan, Jal.",
             iconClassname: "fa-solid fa-location-dot",
             description: ''
         },
