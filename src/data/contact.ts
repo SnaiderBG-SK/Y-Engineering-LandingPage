@@ -6,6 +6,12 @@ export const contactListItems: IContact[] = [
         id: 1,
         title: "Office",
         iconClassname: "fas fa-map-marker-alt",
+        description: "2803 Philadelphia Pike, Claymont, Delaware, 19703",
+    },
+    {
+        id: 2,
+        title: "Office",
+        iconClassname: "fas fa-map-marker-alt",
         description: "890-A Marina Vallarta, Jal. 45140, Mexico",
     },
     {
